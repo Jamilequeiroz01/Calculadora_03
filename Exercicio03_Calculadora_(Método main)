@@ -1,0 +1,43 @@
+import java.util.*;
+public class Calculadora1Principal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		   Scanner in = new Scanner(System.in);
+		
+				double Numero1, Numero2, Resultado;	//Variaveis
+				
+				Calculadora1 calculadora1 = new Calculadora1(); //instanciando
+				
+				System.out.println("Digite o primeiro numero");  //Pedindo numero pro asuario
+				calculadora1.Numero1 = in.nextDouble();
+				
+				
+				System.out.println("Digite o segundo numero");  //Pedindo numero pro asuario
+				calculadora1.Numero2 = in.nextDouble();
+				
+				
+				calculadora1.Soma();              //Calculando os numeros
+				
+				System.out.println("Resultado Da Soma:  " +calculadora1.Resultado);   //Apresentando a Soma
+				
+				System.out.println();
+				
+				calculadora1.Divisão();
+				
+				System.out.println("Resultado Da Divisão:  " +calculadora1.Resultado); //Apresentando a Divisão
+				
+				System.out.println();
+				
+				calculadora1.Subtração();
+				
+				System.out.println("Resultado Da Subtração:  " +calculadora1.Resultado); //Apresentando a Subtração
+				
+				System.out.println();
+				
+				calculadora1.Multiplicação();
+				
+				System.out.println("Resultado Da Multiplicação:  " +calculadora1.Resultado);  //Apresentando a Multiplicação
+			
+	}
+}
