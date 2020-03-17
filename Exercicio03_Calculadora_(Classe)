@@ -1,0 +1,22 @@
+public class Calculadora1 { //Atributos da classe
+		double Numero1;
+		double Numero2;
+		double Resultado;
+		
+		
+		void Soma(){
+			Resultado = Numero1 + Numero2; //calculo da soma
+		}
+	
+		void Divisão(){
+			Resultado = Numero1 - Numero2; //calculo da divisão
+		}
+	
+		void Subtração(){
+			Resultado = Numero1 * Numero2; //calculo da subtração
+		}
+		
+		void Multiplicação(){
+			Resultado = Numero1 / Numero2; //calculo da multiplicação
+		}
+}
